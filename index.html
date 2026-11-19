@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amit Thakur | Software Developer & IT Professional</title>
+  <meta name="description" content="Official portfolio of Amit Thakur — Software Developer and IT Professional based in Kathmandu, Nepal. Master in MSCIT scholar with expertise in Java, JavaScript, Cloud, Databases, and System Administration.">
+  <meta name="keywords" content="Amit Thakur, Software Developer, IT Assistant, MSCIT, Java, JavaScript, AWS Cloud Architecting, Nepal, Frontline Hospital, Royal's IT">
+  <meta name="author" content="Amit Thakur">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Amit Thakur | Software Developer Portfolio">
+  <meta property="og:description" content="Explore Amit Thakur's projects, technical skills, hospital software support, and education credentials.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Animated Glowing Background -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="ambient-blob-1"></div>
+    <div class="ambient-blob-2"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo" aria-label="Amit Thakur Home">
+        <span class="logo-bracket">&lt;</span>Amit.Thakur<span class="logo-bracket"> /&gt;</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-links" id="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Theme Switcher & Actions -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark/Light Mode" title="Toggle theme">
+          <i id="theme-icon" data-lucide="sun"></i>
+        </button>
+
+        <a href="https://wa.me/9779849459569" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp" style="padding: 0.45rem 1.1rem; font-size: 0.82rem;" title="Chat on WhatsApp">
+          <i data-lucide="message-circle" style="width: 16px; height: 16px;"></i>
+          <span>WhatsApp</span>
+        </a>
+
+        <button id="mobile-menu-toggle" class="mobile-menu-toggle" aria-label="Open Navigation Menu" aria-expanded="false">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Text -->
+          <div class="hero-text">
+            <div class="hero-badges-row">
+              <div class="hero-status-pill">
+                <span class="status-dot"></span>
+                <span>Open for Opportunities</span>
+              </div>
+              <div class="hero-location-pill">
+                <i data-lucide="map-pin" style="width: 14px; height: 14px;"></i>
+                <span>Kathmandu, Nepal</span>
+              </div>
+            </div>
+
+            <h1 class="hero-title">
+              Hi, I'm <span class="name-highlight">Amit Thakur</span>
+            </h1>
+
+            <div class="hero-typing-wrapper">
+              <span>I am a </span>
+              <span id="typing-text" class="typing-text">Software Developer</span>
+              <span class="typing-cursor"></span>
+            </div>
+
+            <p class="hero-description">
+              A keen learner with strong leadership qualities and problem-solving skills. Experienced in hospital software support, database management, network configuration, and modern software development with a passion for building reliable IT solutions.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <i data-lucide="layers" style="width: 18px; height: 18px;"></i>
+                <span>View Projects</span>
+              </a>
+              <a href="https://wa.me/9779849459569" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                <i data-lucide="phone-call" style="width: 18px; height: 18px;"></i>
+                <span>+977 9849459569</span>
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <i data-lucide="mail" style="width: 18px; height: 18px;"></i>
+                <span>Contact Me</span>
+              </a>
+            </div>
+
+            <!-- Social Links with actual CV profiles -->
+            <div class="hero-socials">
+              <a href="https://www.linkedin.com/in/amit-thakuri-b72517254/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile" title="LinkedIn">
+                <i data-lucide="linkedin"></i>
+              </a>
+              <a href="https://github.com/mstux" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile" title="GitHub (mstux)">
+                <i data-lucide="github"></i>
+              </a>
+              <a href="mailto:thakuriamit500@gmail.com" class="social-link" aria-label="Send Email" title="Email Amit">
+                <i data-lucide="mail"></i>
+              </a>
+              <a href="https://wa.me/9779849459569" target="_blank" rel="noopener noreferrer" class="social-link whatsapp" aria-label="WhatsApp Chat" title="WhatsApp (+977 9849459569)">
+                <i data-lucide="message-circle"></i>
+              </a>
+              <a href="tel:+9779849459569" class="social-link" aria-label="Direct Phone Call" title="Call Amit">
+                <i data-lucide="phone"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual / Profile Card -->
+          <div class="hero-visual">
+            <div class="hero-card">
+              <!-- Profile Header -->
+              <div class="profile-photo-container">
+                <div class="profile-avatar-wrapper">
+                  <div class="profile-avatar-initials">AT</div>
+                </div>
+                <div class="profile-meta">
+                  <h4>Amit Thakur</h4>
+                  <p>MSCIT Scholar &amp; Developer</p>
+                  <p style="font-size: 0.78rem; color: var(--accent-primary); font-weight: 600;">
+                    <i data-lucide="award" style="width: 12px; height: 12px; display: inline;"></i> AWS Academy Graduate
+                  </p>
+                </div>
+              </div>
+
+              <div class="code-header">
+                <div class="code-dot dot-red"></div>
+                <div class="code-dot dot-yellow"></div>
+                <div class="code-dot dot-green"></div>
+                <span class="code-title">amit-thakur.profile.json</span>
+              </div>
+
+              <pre class="code-snippet"><code>{
+  <span class="code-prop">"name"</span>: <span class="code-str">"Amit Thakur"</span>,
+  <span class="code-prop">"nationality"</span>: <span class="code-str">"Nepalese"</span>,
+  <span class="code-prop">"location"</span>: <span class="code-str">"New Road, Kathmandu"</span>,
+  <span class="code-prop">"education"</span>: <span class="code-str">"Master in MSCIT"</span>,
+  <span class="code-prop">"institution"</span>: <span class="code-str">"Presidential Graduate School"</span>,
+  <span class="code-prop">"experience"</span>: <span class="code-str">"Hospital IT &amp; Networking"</span>,
+  <span class="code-prop">"github"</span>: <span class="code-str">"github.com/mstux"</span>,
+  <span class="code-prop">"awsCertified"</span>: <span class="code-kw">true</span>
+}</code></pre>
+            </div>
+
+            <!-- Floating Badges -->
+            <div class="floating-badge badge-1">
+              <i data-lucide="cloud" style="width: 18px; height: 18px; color: var(--accent-primary);"></i>
+              <span>AWS Cloud Architecting</span>
+            </div>
+
+            <div class="floating-badge badge-2">
+              <i data-lucide="check-circle-2" style="width: 18px; height: 18px; color: #34d399;"></i>
+              <span>Database &amp; Network Pro</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i data-lucide="user" style="width: 14px; height: 14px;"></i>
+            <span>Professional Profile</span>
+          </div>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-desc">Dedicated to continuous learning, leadership, and technical excellence.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <h3>A dedicated problem solver with leadership quality and industry expertise.</h3>
+            <p>
+              A keen learner who possesses strong leadership qualities, I am always motivated and eager to develop my technical skill set. With hands-on knowledge in the IT industry, I bring proven abilities in problem solving, computer networking, and system diagnostics.
+            </p>
+            <p>
+              I am genuinely dedicated to my work and career path. Whether maintaining critical hospital management software at Frontline Hospital, configuring network hardware, or building intelligent chatbot systems and cloud architectures, I approach every challenge with observation, precision, and efficiency.
+            </p>
+
+            <!-- Quick Stats from CV -->
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-number">MSCIT</div>
+                <div class="stat-label">Master's Degree (Pursuing)</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">AWS</div>
+                <div class="stat-label">Academy Cloud Graduate</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">BIT</div>
+                <div class="stat-label">Information Technology Grad</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Languages (NEP / ENG / HIN)</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Personal Information Card from CV -->
+          <div class="personal-details-card">
+            <h4 class="personal-details-title">
+              <i data-lucide="id-card" style="width: 20px; height: 20px; color: var(--accent-primary);"></i>
+              <span>Curriculum Vitae Details</span>
+            </h4>
+
+            <div class="details-list">
+              <div class="details-item">
+                <div class="details-icon"><i data-lucide="user"></i></div>
+                <div>
+                  <div class="details-label">Full Name</div>
+                  <div class="details-val">Amit Thakur</div>
+                </div>
+              </div>
+
+              <div class="details-item">
+                <div class="details-icon"><i data-lucide="flag"></i></div>
+                <div>
+                  <div class="details-label">Nationality &amp; Gender</div>
+                  <div class="details-val">Nepalese • Male</div>
+                </div>
+              </div>
+
+              <div class="details-item">
+                <div class="details-icon"><i data-lucide="calendar"></i></div>
+                <div>
+                  <div class="details-label">Date of Birth</div>
+                  <div class="details-val">03 / 10 / 1995</div>
+                </div>
+              </div>
+
+              <div class="details-item">
+                <div class="details-icon"><i data-lucide="map-pin"></i></div>
+                <div>
+                  <div class="details-label">Home Address</div>
+                  <div class="details-val">New Road, Kathmandu, Nepal, 44600</div>
+                </div>
+              </div>
+
+              <div class="details-item">
+                <div class="details-icon"><i data-lucide="phone"></i></div>
+                <div>
+                  <div class="details-label">Phone &amp; WhatsApp</div>
+                  <div class="details-val"><a href="tel:+9779849459569" style="color: var(--accent-primary);">(+977) 9849459569</a></div>
+                </div>
+              </div>
+
+              <div class="details-item">
+                <div class="details-icon"><i data-lucide="mail"></i></div>
+                <div>
+                  <div class="details-label">Email Address</div>
+                  <div class="details-val"><a href="mailto:thakuriamit500@gmail.com" style="color: var(--accent-primary);">thakuriamit500@gmail.com</a></div>
+                </div>
+              </div>
+
+              <div class="details-item">
+                <div class="details-icon"><i data-lucide="github"></i></div>
+                <div>
+                  <div class="details-label">GitHub Portfolio</div>
+                  <div class="details-val"><a href="https://github.com/mstux" target="_blank" rel="noopener noreferrer" style="color: var(--accent-primary);">github.com/mstux</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="background: var(--bg-glass);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i data-lucide="cpu" style="width: 14px; height: 14px;"></i>
+            <span>Competencies</span>
+          </div>
+          <h2 class="section-title">Technical &amp; Digital Skills</h2>
+          <p class="section-desc">Key proficiencies in software programming, systems, databases, cloud, and IT operations.</p>
+        </div>
+
+        <div class="skills-container">
+          <!-- Category 1: Languages & Development -->
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i data-lucide="code-2"></i>
+              </div>
+              <h3 class="skill-cat-title">Programming &amp; Web</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-pill">Java</span>
+              <span class="skill-pill">HTML5</span>
+              <span class="skill-pill">CSS3</span>
+              <span class="skill-pill">JavaScript</span>
+              <span class="skill-pill">Data Structures</span>
+              <span class="skill-pill">OOP Design</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Databases & Systems -->
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i data-lucide="database"></i>
+              </div>
+              <h3 class="skill-cat-title">Databases &amp; Systems</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-pill">Database Solving</span>
+              <span class="skill-pill">SQL Queries</span>
+              <span class="skill-pill">Database Maintenance</span>
+              <span class="skill-pill">Data Integrity</span>
+              <span class="skill-pill">System Optimization</span>
+            </div>
+          </div>
+
+          <!-- Category 3: IT Support & Healthcare -->
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i data-lucide="activity"></i>
+              </div>
+              <h3 class="skill-cat-title">IT &amp; Hospital Systems</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-pill">Hospital Software Support</span>
+              <span class="skill-pill">Networking Configuration</span>
+              <span class="skill-pill">Hardware Maintenance</span>
+              <span class="skill-pill">Troubleshooting Issues</span>
+              <span class="skill-pill">Supplier Relations</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Cloud & Creative -->
+          <div class="skill-category">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i data-lucide="cloud"></i>
+              </div>
+              <h3 class="skill-cat-title">Cloud &amp; Creative Tools</h3>
+            </div>
+            <div class="skill-badges">
+              <span class="skill-pill">AWS Cloud Architecting</span>
+              <span class="skill-pill">GitHub (mstux)</span>
+              <span class="skill-pill">Graphic Designer</span>
+              <span class="skill-pill">Version Control (Git)</span>
+              <span class="skill-pill">Cloud Infrastructure</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Management, Leadership & Languages Extra Grid -->
+        <div class="skills-extra-row">
+          <!-- Management & Leadership -->
+          <div class="extra-card">
+            <h3 class="extra-card-title">
+              <i data-lucide="users" style="color: var(--accent-primary);"></i>
+              <span>Management &amp; Leadership Skills</span>
+            </h3>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.7; margin-bottom: 1.25rem;">
+              Demonstrated ability to navigate complex scenarios with clarity and efficiency:
+            </p>
+            <div class="skill-badges">
+              <span class="skill-pill">Observation &amp; Technical Nuance</span>
+              <span class="skill-pill">Strategic Decision Making</span>
+              <span class="skill-pill">Clear Verbal &amp; Written Communication</span>
+              <span class="skill-pill">Dynamic Multi-tasking</span>
+              <span class="skill-pill">Client &amp; Supplier Relations</span>
+              <span class="skill-pill">Fast-Paced IT Operations</span>
+            </div>
+          </div>
+
+          <!-- Spoken Languages -->
+          <div class="extra-card">
+            <h3 class="extra-card-title">
+              <i data-lucide="languages" style="color: var(--accent-secondary);"></i>
+              <span>Language Proficiency</span>
+            </h3>
+
+            <div class="language-item">
+              <div>
+                <div class="lang-name">Nepali</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Mother Tongue</div>
+              </div>
+              <span class="lang-level">Native Speaker</span>
+            </div>
+
+            <div class="language-item">
+              <div>
+                <div class="lang-name">English</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Listening • Reading • Writing • Spoken</div>
+              </div>
+              <span class="lang-level">Full Professional</span>
+            </div>
+
+            <div class="language-item">
+              <div>
+                <div class="lang-name">Hindi</div>
+                <div style="font-size: 0.8rem; color: var(--text-muted);">Listening • Reading • Writing • Spoken</div>
+              </div>
+              <span class="lang-level">Full Professional</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i data-lucide="folder-git-2" style="width: 14px; height: 14px;"></i>
+            <span>Curated Works</span>
+          </div>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-desc">Key projects and architectural credentials from my CV and development portfolio.</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai">AI &amp; Software</button>
+          <button class="filter-btn" data-filter="cloud">Cloud &amp; Architecture</button>
+          <button class="filter-btn" data-filter="systems">Systems &amp; Database</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- Project 1: Chatbot for Mobile Repairing Center -->
+          <div class="project-card" data-category="ai">
+            <div class="project-banner">
+              <div class="project-banner-decor">🤖</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">AI Chatbot</span>
+                <span class="project-tag">2022 – 2023</span>
+                <span class="project-tag">Full Project</span>
+              </div>
+              <h3 class="project-title">Artificial Chatbot for Mobile Repairing Center</h3>
+              <p class="project-desc">
+                An intelligent customer service chatbot designed to diagnose mobile hardware/software issues, provide instant cost estimates, and automate repair booking inquiries for mobile service centers.
+              </p>
+              <div class="project-footer">
+                <span style="font-size: 0.8rem; color: var(--text-muted);">AI Logic • JavaScript • Database</span>
+                <div class="project-links">
+                  <a href="https://github.com/mstux" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub Repository" title="GitHub Code"><i data-lucide="github"></i></a>
+                  <a href="#contact" class="icon-btn" aria-label="Project Details" title="Inquire Details"><i data-lucide="external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2: AWS Academy Cloud Architecting -->
+          <div class="project-card" data-category="cloud">
+            <div class="project-banner">
+              <div class="project-banner-decor">☁️</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">AWS Cloud</span>
+                <span class="project-tag">2023</span>
+                <span class="project-tag">Certification</span>
+              </div>
+              <h3 class="project-title">AWS Academy Graduate — Cloud Architecting</h3>
+              <p class="project-desc">
+                Architected highly available, cost-effective, and fault-tolerant cloud infrastructures on AWS. Designed multi-tier VPC setups, EC2 compute scaling, S3 storage architectures, and secure IAM policies.
+              </p>
+              <div class="project-footer">
+                <span style="font-size: 0.8rem; color: var(--text-muted);">AWS VPC • EC2 • S3 • RDS • Security</span>
+                <div class="project-links">
+                  <a href="https://github.com/mstux" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub Repository" title="GitHub (mstux)"><i data-lucide="github"></i></a>
+                  <a href="https://www.linkedin.com/in/amit-thakuri-b72517254/" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Credentials" title="LinkedIn Cert"><i data-lucide="award"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3: Hospital Software & Database Management -->
+          <div class="project-card" data-category="systems">
+            <div class="project-banner">
+              <div class="project-banner-decor">🏥</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Healthcare IT</span>
+                <span class="project-tag">Database Solving</span>
+                <span class="project-tag">Frontline</span>
+              </div>
+              <h3 class="project-title">Hospital Software &amp; Database Support Suite</h3>
+              <p class="project-desc">
+                Support, troubleshooting, and database optimization for Frontline Hospital's core clinical management system. Handled records maintenance, user issue resolution, and zero-downtime operations.
+              </p>
+              <div class="project-footer">
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Hospital Management • SQL • Networks</span>
+                <div class="project-links">
+                  <a href="#experience" class="icon-btn" aria-label="Experience Details" title="Experience"><i data-lucide="briefcase"></i></a>
+                  <a href="#contact" class="icon-btn" aria-label="Contact" title="Discuss"><i data-lucide="message-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Network Diagnostic & Hardware Management -->
+          <div class="project-card" data-category="systems">
+            <div class="project-banner">
+              <div class="project-banner-decor">🔧</div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Networking</span>
+                <span class="project-tag">Hardware</span>
+                <span class="project-tag">Royal's IT</span>
+              </div>
+              <h3 class="project-title">Network Infrastructure &amp; Diagnostic System</h3>
+              <p class="project-desc">
+                Setup and administration of local network routing, workstation hardware diagnostics, and preventive maintenance routines with rigorous supplier and vendor management.
+              </p>
+              <div class="project-footer">
+                <span style="font-size: 0.8rem; color: var(--text-muted);">Networking • Hardware • Supplier Relations</span>
+                <div class="project-links">
+                  <a href="https://github.com/mstux" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub mstux" title="GitHub"><i data-lucide="github"></i></a>
+                  <a href="#contact" class="icon-btn" aria-label="Contact" title="Contact"><i data-lucide="mail"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience" style="background: var(--bg-glass);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i data-lucide="briefcase" style="width: 14px; height: 14px;"></i>
+            <span>Professional Career</span>
+          </div>
+          <h2 class="section-title">Work Experience</h2>
+          <p class="section-desc">Hands-on experience in hospital systems, database administration, and network engineering.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Experience 1: Frontline Hospital -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <span class="timeline-badge">Present Role</span>
+                <span class="timeline-date">01/12/2080 – 20/01/2083 BS (Ongoing)</span>
+              </div>
+              <h3 class="timeline-role">IT Assistant</h3>
+              <div class="timeline-company">
+                <i data-lucide="building-2" style="width: 16px; height: 16px;"></i>
+                <span>Frontline Hospital — Old Baneshwor, Kathmandu, Nepal</span>
+              </div>
+              <div class="timeline-desc">
+                <p>Delivering critical IT support and software reliability across clinical departments:</p>
+                <ul>
+                  <li>Provide end-to-end technical support for comprehensive Hospital Management Software (HMS).</li>
+                  <li>Perform database troubleshooting and query optimizations to solve database bottlenecks.</li>
+                  <li>Configure and maintain local network infrastructure, routers, and switches for seamless hospital communications.</li>
+                  <li>Conduct maintenance of computers, printers, and medical IT peripheral hardware.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2: Royal's It Service -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <span class="timeline-badge">Past Role</span>
+                <span class="timeline-date">14/04/2022 – 14/07/2022</span>
+              </div>
+              <h3 class="timeline-role">Jr. Network Administrator</h3>
+              <div class="timeline-company">
+                <i data-lucide="building-2" style="width: 16px; height: 16px;"></i>
+                <span>Royal's It Service — Kathmandu, Nepal</span>
+              </div>
+              <div class="timeline-desc">
+                <p>Managed network integrity, system hardware repairs, and partner communications:</p>
+                <ul>
+                  <li>Executed regular maintenance, troubleshooting, and optimization of office computers and workstations.</li>
+                  <li>Maintained effective relations and coordinated technical equipment procurement with hardware suppliers.</li>
+                  <li>Configured LAN connections, security settings, and network access for operational efficiency.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education & Training Section -->
+    <section id="education">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i data-lucide="graduation-cap" style="width: 14px; height: 14px;"></i>
+            <span>Academic Background</span>
+          </div>
+          <h2 class="section-title">Education &amp; Training</h2>
+          <p class="section-desc">My academic qualifications, degree programs, and professional cloud training.</p>
+        </div>
+
+        <div class="timeline">
+          <!-- Degree 1: Master in MSCIT -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <span class="timeline-badge">Postgraduate</span>
+                <span class="timeline-date">2023 – 2025</span>
+              </div>
+              <h3 class="timeline-role">Master in MSCIT (Information Technology)</h3>
+              <div class="timeline-company">
+                <i data-lucide="school" style="width: 16px; height: 16px;"></i>
+                <span>Presidential Graduate School — Kathmandu, Nepal</span>
+              </div>
+              <div class="timeline-desc">
+                <p>Advanced study in Information Technology, Enterprise Systems Architecture, Software Engineering Principles, Advanced Database Technologies, and Cloud Computing.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Degree 2: Bachelor In Information Technology -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <span class="timeline-badge">Undergraduate</span>
+                <span class="timeline-date">2019 – 2023</span>
+              </div>
+              <h3 class="timeline-role">Bachelor In Information Technology (BIT)</h3>
+              <div class="timeline-company">
+                <i data-lucide="school" style="width: 16px; height: 16px;"></i>
+                <span>Lord Buddha Education Foundation — Kathmandu, Nepal</span>
+              </div>
+              <div class="timeline-desc">
+                <p>Core curriculum in Object-Oriented Programming (Java), Data Structures &amp; Algorithms, Database Management Systems (SQL), Web Development (HTML/CSS/JS), and Computer Networks.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Training: AWS Academy Cloud Architecting -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <span class="timeline-badge">Cloud Certification</span>
+                <span class="timeline-date">2023</span>
+              </div>
+              <h3 class="timeline-role">AWS Academy Graduate — AWS Academy Cloud Architecting</h3>
+              <div class="timeline-company">
+                <i data-lucide="award" style="width: 16px; height: 16px;"></i>
+                <span>AWS Academy Certification Program</span>
+              </div>
+              <div class="timeline-desc">
+                <p>Comprehensive training on architecting resilient, high-performing, secure, and cost-optimized cloud solutions on Amazon Web Services (AWS).</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Degree 3: +2 Science -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <span class="timeline-badge">Higher Secondary</span>
+                <span class="timeline-date">2013 – 2019</span>
+              </div>
+              <h3 class="timeline-role">+2 In Science Faculty</h3>
+              <div class="timeline-company">
+                <i data-lucide="school" style="width: 16px; height: 16px;"></i>
+                <span>National Integrated College — Kathmandu, Nepal</span>
+              </div>
+              <div class="timeline-desc">
+                <p>Concentration in Physics, Mathematics, Chemistry, and Analytical Sciences.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Degree 4: SLC -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+                <span class="timeline-badge">Secondary School</span>
+                <span class="timeline-date">2012</span>
+              </div>
+              <h3 class="timeline-role">School Leaving Certificate Examination (SLC)</h3>
+              <div class="timeline-company">
+                <i data-lucide="school" style="width: 16px; height: 16px;"></i>
+                <span>Headway English Medium School — Kathmandu, Nepal</span>
+              </div>
+              <div class="timeline-desc">
+                <p>Completed with distinction in Computer Science, Mathematics, and English.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-badge">
+            <i data-lucide="message-square" style="width: 14px; height: 14px;"></i>
+            <span>Get In Touch</span>
+          </div>
+          <h2 class="section-title">Contact Amit Thakur</h2>
+          <p class="section-desc">Reach out directly via phone, WhatsApp, email, or send a message below.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Details Cards -->
+          <div class="contact-info-cards">
+            <!-- Email Card -->
+            <a href="mailto:thakuriamit500@gmail.com" class="contact-card">
+              <div class="contact-icon-wrapper">
+                <i data-lucide="mail"></i>
+              </div>
+              <div>
+                <div class="contact-card-title">Email Address</div>
+                <div class="contact-card-value">thakuriamit500@gmail.com</div>
+              </div>
+            </a>
+
+            <!-- Phone Card -->
+            <a href="tel:+9779849459569" class="contact-card">
+              <div class="contact-icon-wrapper">
+                <i data-lucide="phone"></i>
+              </div>
+              <div>
+                <div class="contact-card-title">Phone Number</div>
+                <div class="contact-card-value">(+977) 9849459569</div>
+              </div>
+            </a>
+
+            <!-- WhatsApp Card -->
+            <a href="https://wa.me/9779849459569" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-icon-wrapper wa">
+                <i data-lucide="message-circle"></i>
+              </div>
+              <div>
+                <div class="contact-card-title">WhatsApp Messenger</div>
+                <div class="contact-card-value">9849459569 (Chat Now)</div>
+              </div>
+            </a>
+
+            <!-- Location Card -->
+            <div class="contact-card">
+              <div class="contact-icon-wrapper">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div>
+                <div class="contact-card-title">Location</div>
+                <div class="contact-card-value">New Road, Kathmandu, Nepal, 44600</div>
+              </div>
+            </div>
+
+            <!-- LinkedIn Card -->
+            <a href="https://www.linkedin.com/in/amit-thakuri-b72517254/" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <div class="contact-icon-wrapper">
+                <i data-lucide="linkedin"></i>
+              </div>
+              <div>
+                <div class="contact-card-title">LinkedIn Profile</div>
+                <div class="contact-card-value">linkedin.com/in/amit-thakuri-b72517254</div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-container">
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="form-name" class="form-label">Your Name *</label>
+                <input type="text" id="form-name" class="form-input" placeholder="e.g. Ramesh Shrestha" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email" class="form-label">Your Email *</label>
+                <input type="email" id="form-email" class="form-input" placeholder="e.g. name@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="form-subject" class="form-label">Subject</label>
+                <input type="text" id="form-subject" class="form-input" placeholder="e.g. Project Opportunity / Consultation">
+              </div>
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message *</label>
+                <textarea id="form-message" class="form-textarea" placeholder="Hello Amit, I would like to discuss..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <i data-lucide="send" style="width: 18px; height: 18px;"></i>
+                <span>Send Message to Amit</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-text">
+        &copy; <span id="year">2026</span> Amit Thakur • Kathmandu, Nepal • Built with passion &amp; precision.
+      </div>
+
+      <div class="back-to-top" id="back-to-top">
+        <span>Back to top</span>
+        <i data-lucide="arrow-up" style="width: 16px; height: 16px;"></i>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Feedback -->
+  <div id="toast" class="toast" role="alert">
+    <i data-lucide="check-circle" style="color: #4ade80;"></i>
+    <span id="toast-message">Notification message</span>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
