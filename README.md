@@ -4,7 +4,7 @@ A modern, responsive, high-performance personal portfolio website built for **Am
 
 ---
 
-## 👨‍💻 About Amit Thakur
+##  About Amit Thakur
 
 - **Profession**: Software Developer & IT Professional
 - **Current Education**: Master in MSCIT — Presidential Graduate School (2023 – 2025)
@@ -18,7 +18,7 @@ A modern, responsive, high-performance personal portfolio website built for **Am
 
 ---
 
-## 🌟 Sections & Highlights
+##  Sections & Highlights
 
 1. **Hero Section**:
    - Status badge: *Open for Opportunities*
@@ -56,13 +56,13 @@ A modern, responsive, high-performance personal portfolio website built for **Am
 
 ---
 
-## 🚀 Quick Launch
+##  Quick Launch
 
 Double-click `index.html` inside this directory to view the portfolio in any web browser without any installation!
 
 ---
 
-## 🌐 1-Click Free Deployment
+##  1-Click Free Deployment
 
 - **GitHub Pages**: Push this directory to `https://github.com/mstux/mstux.github.io` or `portfolio`.
 - **Netlify**: Drag and drop this folder onto [Netlify Drop](https://app.netlify.com/drop).
